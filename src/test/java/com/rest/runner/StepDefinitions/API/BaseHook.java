@@ -85,6 +85,10 @@ public class BaseHook {
         }
     }
 
+    /*
+        sortTheMovieTitles method will take JSONObject as input parameter
+        Sort the movie titles
+     */
     public void sortTheMovieTitles(JsonObject object)  {
         List<String> titles = new ArrayList<>();
         JsonArray data = object.getAsJsonArray("data");
@@ -95,6 +99,11 @@ public class BaseHook {
         Collections.sort(titles);
         titles.forEach(System.out::println);
     }
+
+        /*
+        sortTheMovieTitles method will take JSONObject as input parameter and movieName
+        Store if title contains movie name Sort the movie titles.
+     */
 
     public void sortTheMovieTitlesBasedOnMovieName(JsonObject object,String movieName) {
         List<String> titles = new ArrayList<>();
