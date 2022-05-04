@@ -1,17 +1,17 @@
 # ramamohanareddy_avula_teladoc_challenge
 Teladoc API Challenge
 
-This project is a maven project with Cucumber framework to automate Rest API's.
+**This project is a maven project with Cucumber framework to automate Rest API's.**
 
 Automation of restfull api or webservices projects with Rest Assured
 This also includes the extent reporting.
 
-Preconditions
+**Preconditions**
 - Maven 
 - Java 8
 - Cucumber Eclipse plugin
 
-MAVEN_Dependencies
+**MAVEN_Dependencies**
 Add the following dependencies to your pom.xml All below dependencies are compatible.
 
    <build>
@@ -123,7 +123,7 @@ Add the following dependencies to your pom.xml All below dependencies are compat
     </properties>
 
 
-Steps to Run the project on local:
+**Steps to Run the project on local:**
 
 1. Clone the projet - https://github.com/avula12345/ramamohanareddy_avula_teladoc_challenge.git to IntelliJ / Ecllipse
 2. Compile the project with all the dependencies
@@ -131,14 +131,16 @@ Steps to Run the project on local:
 
 ![image](https://user-images.githubusercontent.com/17126034/166627893-5f212438-f62e-4d2d-b9eb-bcd485f9dabf.png)
 
-4. Run the testrunner file located at - com/rest/runner/TestRunner/APITestRunner.java
+**4. Run the testrunner file located at - com/rest/runner/TestRunner/APITestRunner.java**
 
 ![image](https://user-images.githubusercontent.com/17126034/166628027-f2ee05db-57b8-45cf-a261-8000ee0378c1.png)
 
 
-6. After execution, extent report will be created at -  test-output folder
+**6. After execution, extent report will be created at -  test-output folder**
 
 ![image](https://user-images.githubusercontent.com/17126034/166628115-3f00f568-2087-45c5-8780-3f79844efc06.png)
+
+**Sample Extent Report:**
 
 ![image](https://user-images.githubusercontent.com/17126034/166628166-b973b436-e2ec-4826-a0ad-ffe952edf8fe.png)
 
